@@ -1,5 +1,13 @@
 import React from "react";
-import { DownOutlined, ConsoleSqlOutlined } from "@ant-design/icons";
+import {
+  DownOutlined,
+  ConsoleSqlOutlined,
+  ShoppingOutlined,
+  RedEnvelopeOutlined,
+  HomeOutlined,
+  ContainerOutlined,
+  GlobalOutlined,
+} from "@ant-design/icons";
 import { Dropdown, Space, Row, Col, Image, Button, Flex } from "antd";
 import flower from "../../assets/image/flower.png";
 // 下拉组件封装
@@ -30,36 +38,106 @@ export const Fdropdown = (props) => {
             </div>
           </div>
         </Col>
-        <Col span={2}>
+
+        <Col span={3}>
           <Flex vertical gap={"30px"} align="start">
             <h3>
               <ConsoleSqlOutlined
-                style={{ color: "blue", marginRight: "5px" }}
+                style={{ color: "blue", marginRight: "8px" }}
+              />
+              互联网
+            </h3>
+            <h3>
+              <ShoppingOutlined
+                style={{ color: "green", marginRight: "8px" }}
+              />
+              零售
+            </h3>
+            <h3>
+              <RedEnvelopeOutlined
+                style={{ color: "#14C0FF", marginRight: "8px" }}
+              />
+              金融
+            </h3>
+            <h3>
+              <HomeOutlined style={{ color: "#3370FF", marginRight: "8px" }} />
+              房地产
+            </h3>
+            <h3>
+              <ContainerOutlined
+                style={{ color: "green", marginRight: "8px" }}
+              />
+              教育
+            </h3>
+          </Flex>
+        </Col>
+
+        <Col span={3}>
+          <Flex vertical gap={"30px"} align="start">
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
               />
               制造业
             </h3>
-            <h3>企业服务</h3>
-            <h3>智能出行</h3>
-            <h3>游戏</h3>
-            <h3>教育</h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              企业服务
+            </h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              智能出行
+            </h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              游戏
+            </h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              教育
+            </h3>
           </Flex>
         </Col>
-        <Col span={2}>
+        <Col span={3}>
           <Flex vertical gap={"30px"} align="start">
-            <h3>央国企</h3>
-            <h3>消费</h3>
-            <h3>消费电子</h3>
-            <h3>医疗健康</h3>
-            <h3>教育</h3>
-          </Flex>
-        </Col>
-        <Col span={2}>
-          <Flex vertical gap={"30px"} align="start">
-            <h3>互联网</h3>
-            <h3>零售</h3>
-            <h3>金融</h3>
-            <h3>房地产</h3>
-            <h3>文娱传媒</h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              央国企
+            </h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              消费
+            </h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              消费电子
+            </h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              医疗健康
+            </h3>
+            <h3>
+              <GlobalOutlined
+                style={{ color: "#3370FF", marginRight: "8px" }}
+              />
+              教育
+            </h3>
           </Flex>
         </Col>
       </Row>
@@ -72,7 +150,8 @@ export const Fdropdown = (props) => {
         return (
           <div
             style={{
-              background: "#ccc",
+              background: "#fff",
+              boxShadow: "4px 4px 10px #eee",
             }}
           >
             <Tab1 />
