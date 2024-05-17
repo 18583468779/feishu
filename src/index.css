@@ -77,3 +77,6 @@ body {
   inset: auto auto auto 0 !important;
   width: 100% !important;
 }
+.center {
+  text-align: center;
+}
