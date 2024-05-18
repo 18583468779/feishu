@@ -10,9 +10,9 @@ const Header = () => {
           <Space size={"large"}>
             <Image style={{ width: "74px" }} src={logo} />
             <Fdropdown title="客户案例" />
-            <Fdropdown title="解决方案" />
-            <Fdropdown title="产品功能" />
-            <Fdropdown title="合作与支持" />
+            <Fdropdown title="解决方案" select={2} />
+            <Fdropdown title="产品功能" select={3} />
+            <Fdropdown title="合作与支持" select={4} />
           </Space>
         </div>
         <div></div>
