@@ -1,6 +1,8 @@
 import { Row, Col, Image, Button, Flex, Tabs } from "antd";
 
 import work from "../../assets/image/work.png";
+import p1 from "../../assets/image/p1.png";
+import p2 from "../../assets/image/p2.png";
 
 export const WorkOutItem = () => {
   const WorkWord = ({ title = "", content = [] }) => (
@@ -262,7 +264,7 @@ export const WorkOutItem = () => {
                   }}
                 >
                   <Flex vertical gap={"10px"} align="start">
-                    <Image style={{ width: "100%" }} src={work} />
+                    <Image style={{ width: "100%" }} src={p1} />
                     <h4 style={{ paddingLeft: "10px" }} className="center">
                       抖音同款项目管理神器
                     </h4>
@@ -295,45 +297,51 @@ export const WorkOutItem = () => {
       children: (
         <>
           <h4 style={{ paddingLeft: "10px", marginBottom: "30px" }}>
-            行业实践合集&gt;
+            行业模板合集&gt;
           </h4>
           <Row justify="space-around" align="start">
             <Col span={6}>
               <Flex vertical gap={"30px"} align="start">
                 <WorkWord
-                  title="行业通用"
-                  content={["减少90 %重复工作", "5个任务管理提效秘籍"]}
+                  title="互联网"
+                  content={["研发需求及人力排期", "项目验收走查表"]}
                 />
                 <WorkWord
-                  title="金融"
-                  content={[
-                    "打造一站式智慧党建工作平台",
-                    "建设高效学习组织新形态",
-                  ]}
+                  title="新零售"
+                  content={["零售ERP管理系统", "供应商及产能管理"]}
+                />
+                <h4 style={{ paddingLeft: "10px" }}>职能模板合集&gt;</h4>
+                <WorkWord
+                  title="产品研发"
+                  content={["KANO模型产品优先级调研", "项目验收走查表"]}
                 />
                 <WorkWord
-                  title="文娱传媒"
-                  content={["激发创造打造爆款综艺", "万人共创打造全网关注话题"]}
+                  title="销售管理"
+                  content={["轻型客户关系管理系统", "店铺销售额日报表"]}
                 />
               </Flex>
             </Col>
 
             <Col span={6}>
               <Flex vertical gap={"30px"} align="start">
-                <WorkWord
-                  title="消费"
-                  content={["高效打造消费品牌爆品", "一张表掌握产品与销量情况"]}
-                />
                 <WorkWord
                   title="制造业"
-                  content={[
-                    "0代码搭建业务巡检系统",
-                    "17條线索月的车企营销方法",
-                  ]}
+                  content={["制造业一张表管公司", "搭建自动化巡检系统"]}
                 />
                 <WorkWord
-                  title="房地产"
-                  content={["一张询价表省下20万", "为每个项目变更节省300小时"]}
+                  title="电商"
+                  content={["电商售后管理及进展跟踪", "达人商单管理"]}
+                />
+                <WorkWord
+                  title="项目管理"
+                  content={["项目管理及进展跟踪", "项目预算汇总提报"]}
+                />
+                <WorkWord
+                  title="人事行政"
+                  content={[
+                    "团队人员信息及工作表现统计",
+                    "轻量级企业资产管理系统",
+                  ]}
                 />
               </Flex>
             </Col>
@@ -341,25 +349,12 @@ export const WorkOutItem = () => {
             <Col span={6}>
               <Flex vertical gap={"30px"} align="start">
                 <WorkWord
-                  title="游戏"
-                  content={[
-                    "通过标准生产线打造爆款游戏",
-                    "7大场景加速游戏策划与开发",
-                  ]}
+                  title="新媒体"
+                  content={["新媒体播客内容创作管理", "视频拍摄分镜管理"]}
                 />
                 <WorkWord
-                  title="互联网"
-                  content={[
-                    "用原1/4的时间实现功能上线",
-                    "10倍提升互联网组织协作效率",
-                  ]}
-                />
-                <WorkWord
-                  title="医疗健康"
-                  content={[
-                    "7大解决方案助力医疗组织升级",
-                    "医药代表如何提升销售效率",
-                  ]}
+                  title="市场营销"
+                  content={["营销活动审批管理", "直播数据记录及可视化看板"]}
                 />
               </Flex>
             </Col>
@@ -373,24 +368,24 @@ export const WorkOutItem = () => {
                   }}
                 >
                   <Flex vertical gap={"10px"} align="start">
-                    <Image style={{ width: "100%" }} src={work} />
+                    <Image style={{ width: "100%" }} src={p2} />
                     <h4 style={{ paddingLeft: "10px" }} className="center">
-                      抖音同款项目管理神器
+                      免费领数字化工具包和模板库
                     </h4>
                     <p style={{ fontSize: "12px", paddingLeft: "10px" }}>
-                      助力抖音在几年时间迅速成长为一款“国
+                      体验飞书集成能力，打通各业务单元。获
                     </p>
                     <p style={{ fontSize: "12px", paddingLeft: "10px" }}>
-                      民级应用”，既实现敏捷的功能迭代，又
+                      取数字化工具包和模板库，确保企业业务
                     </p>
                     <p style={{ fontSize: "12px", paddingLeft: "10px" }}>
-                      承载高速的组织增长。
+                      在线上"飞"起来。
                     </p>
                     <Button
                       type="link"
                       style={{ width: "180px", marginLeft: "-25px" }}
                     >
-                      点击试用同款 &gt;
+                      立即领福利 &gt;
                     </Button>
                   </Flex>
                 </div>
