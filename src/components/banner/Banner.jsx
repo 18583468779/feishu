@@ -1,16 +1,17 @@
 import { Carousel, Flex, Button, Typography, Space, Image } from "antd";
 const { Title } = Typography;
 import arrow from "../../assets/image/arrow.png";
+import bannerShow from "../../assets/image/banner-show.png";
 
 import { CheckOutlined } from "@ant-design/icons";
 export const Banner = () => {
   return (
-    <Carousel>
+    <Carousel autoplay dots={{ className: "dots" }} dotPosition="bottom">
       <div>
         <div className="banner1">
-          <Flex align="center" className="container">
+          <Flex align="center" className="container" gap={"50px"}>
             <Flex vertical>
-              <Title level={1} style={{ fontSize: "56px" }}>
+              <Title level={1} style={{ fontSize: "50px" }}>
                 先进团队 先用 <span style={{ color: "#605BEA" }}>飞书</span>
               </Title>
               <ul>
@@ -44,7 +45,9 @@ export const Banner = () => {
                 />
               </Button>
             </Flex>
-            <div></div>
+            <div style={{ position: "relative", top: "30px" }}>
+              <img src={bannerShow} alt="" style={{ width: "711px" }} />
+            </div>
           </Flex>
         </div>
       </div>
