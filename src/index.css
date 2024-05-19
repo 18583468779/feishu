@@ -80,3 +80,12 @@ body {
 .center {
   text-align: center;
 }
+.showBg {
+  padding: 2px 15px;
+}
+.showBg:hover {
+  background: #f0f4ff;
+  padding: 2px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -3,6 +3,7 @@ import { Dropdown, Space } from "antd";
 
 import { CustemItem } from "./CustemItem";
 import { CooperateItem } from "./CooperateItem";
+import { WorkOutItem } from "./WorkOutItem";
 // 下拉组件封装
 export const Fdropdown = (props) => {
   const { title = "标题", select = 1 } = props;
@@ -29,7 +30,7 @@ export const Fdropdown = (props) => {
               boxShadow: "4px 4px 10px #eee",
             }}
           >
-            <CustemItem />
+            <WorkOutItem />
           </div>
         );
       case 3:

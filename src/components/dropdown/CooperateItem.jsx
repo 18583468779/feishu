@@ -1,21 +1,5 @@
 import { Row, Col, Image, Button, Flex } from "antd";
-import {
-  ConsoleSqlOutlined,
-  ShoppingOutlined,
-  RedEnvelopeOutlined,
-  HomeOutlined,
-  ContainerOutlined,
-  GlobalOutlined,
-  CrownOutlined,
-  SendOutlined,
-  CoffeeOutlined,
-  DesktopOutlined,
-  SmileOutlined,
-  SafetyCertificateOutlined,
-  BookOutlined,
-  AccountBookOutlined,
-  BankOutlined,
-} from "@ant-design/icons";
+import { ConsoleSqlOutlined, ShoppingOutlined } from "@ant-design/icons";
 import prevous from "../../assets/image/prevous.png";
 import { IconTitleItem } from "./IconTitleItem";
 export const CooperateItem = () => {
