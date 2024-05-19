@@ -17,7 +17,6 @@ import {
   BankOutlined,
 } from "@ant-design/icons";
 import flower from "../../assets/image/flower.png";
-import { IconTitleItem } from "./IconTitleItem";
 export const CustemItem = () => {
   return (
     <div className="container">

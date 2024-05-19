@@ -76,6 +76,8 @@ body {
 .ant-dropdown {
   inset: auto auto auto 0 !important;
   width: 100% !important;
+  position: absolute;
+  top: 60px !important;
 }
 .center {
   text-align: center;
@@ -88,4 +90,69 @@ body {
   padding: 2px 15px;
   border-radius: 5px;
   cursor: pointer;
+}
+.banner1 {
+  background-image: url(./assets/image/banner1.png),
+    linear-gradient(90deg, #ede7fa 0, #b5caf8 47.53%, #d2f0fc 100%);
+  background-clip: padding-box, padding-box;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, scroll;
+  background-position: center 50%, 0 0;
+  background-blend-mode: normal, normal;
+  height: 860px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  animation: gradienBg 7s alternate infinite;
+  background-size: cover, 300% 300%;
+  max-height: 860px;
+  padding-top: 180px;
+  box-sizing: border-box;
+}
+.banner2 {
+  background-image: url(./assets/image/banner2.png),
+    linear-gradient(90deg, #ede7fa 0, #b5caf8 47.53%, #d2f0fc 100%);
+  background-clip: padding-box, padding-box;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, scroll;
+  background-position: center 50%, 0 0;
+  background-blend-mode: normal, normal;
+  height: 860px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  animation: gradienBg 7s alternate infinite;
+  background-size: cover, 300% 300%;
+  max-height: 860px;
+  padding-top: 180px;
+  box-sizing: border-box;
+}
+.freeBtn {
+  width: 240px;
+  max-width: 240px;
+  margin-top: 64px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 500;
+  font-size: 28px;
+  color: #fff;
+  line-height: 42px;
+  border-radius: 141.176px;
+  background: linear-gradient(90deg, #337ad6, #336df4, #8d55ed);
+  background-size: 300% 300%;
+  position: relative;
+  transition: all 1s ease;
+  font-size: 28px;
+  padding: 15px 5px;
+  top: 0;
+}
+.freeBtn:hover {
+  top: 10px;
 }

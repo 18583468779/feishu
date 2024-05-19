@@ -5,6 +5,9 @@
   position: sticky;
   box-shadow: 4px 4px 10px #eee;
   z-index: 9999;
+  &:hover {
+    background: var(--header-bg, rgba(255, 255, 255, 1));
+  }
   .container {
     height: 100%;
     // display: flex;
