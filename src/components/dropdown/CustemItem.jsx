@@ -46,11 +46,12 @@ export const CustemItem = () => {
 
         <Col span={3}>
           <Flex vertical gap={"30px"} align="start">
-            <IconTitleItem title="互联网">
+            <h3>
               <ConsoleSqlOutlined
-                style={{ color: "blue", marginRight: "8px" }}
+                style={{ color: "green", marginRight: "8px" }}
               />
-            </IconTitleItem>
+              互联网
+            </h3>
             <h3>
               <ShoppingOutlined
                 style={{ color: "green", marginRight: "8px" }}

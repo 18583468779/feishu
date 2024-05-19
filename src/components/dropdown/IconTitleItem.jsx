@@ -1,7 +1,7 @@
 // 封装图标标题内容组件
 export const IconTitleItem = (props) => {
   return (
-    <h3>
+    <h4>
       {props.children}
       <>
         {props.title}
@@ -16,6 +16,6 @@ export const IconTitleItem = (props) => {
           {props.content}
         </p>
       </>
-    </h3>
+    </h4>
   );
 };
