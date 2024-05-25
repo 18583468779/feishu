@@ -164,3 +164,15 @@ body {
   height: 3px;
   width: 50px;
 }
+.bg_hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  padding: 30px 10px 20px 10px;
+}
+.bg_hover:hover {
+  background: #eef2f8;
+}
+.bg_hover:hover > h4 {
+  color: #427bff;
+}
