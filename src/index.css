@@ -176,3 +176,48 @@ body {
 .bg_hover:hover > h4 {
   color: #427bff;
 }
+
+.tab-switcher {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.button-container div {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding-left: 16px;
+}
+
+.button-container div.active {
+  font-weight: bold;
+  width: 328px;
+  min-height: 104px;
+  background: #fff;
+  box-shadow: 0 10px 30px 0 rgba(176, 191, 231, 0.417);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 24px;
+  border-radius: 16px;
+  padding: 16px 24px;
+  margin-bottom: 16px;
+}
+.button-container div.active h3 {
+  color: #3370ff;
+}
+.button-container p.active {
+  font-weight: bold;
+  background-color: white;
+  display: block;
+  font-weight: 500;
+}
+.button-container p {
+  display: none;
+  font-weight: 500;
+  font-size: 16px;
+}

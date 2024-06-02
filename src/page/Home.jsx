@@ -2,6 +2,7 @@ import Header from "../components/header/Header";
 import { Banner } from "../components/banner/Banner";
 import { Images } from "../components/image/Image";
 import { SelectItem } from "../components/selectItem/SelectItem";
+import { Enterprise } from "../components/enterprise/Enterprise";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Banner />
         <Images />
         <SelectItem />
+        <Enterprise />
       </div>
     </>
   );

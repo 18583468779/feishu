@@ -33,7 +33,7 @@ export const SelectItem = () => {
   return (
     <div style={{ marginTop: "100px" }}>
       <div className="container">
-        <Title style={{ textAlign: "center", marginBottom: "20px" }}>
+        <Title style={{ textAlign: "center", marginBottom: "40px" }}>
           先进企业协作与管理平台
         </Title>
         <Flex justify="space-between">

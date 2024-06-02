@@ -11,7 +11,7 @@ import p10 from "../../assets/image/p10.png";
 export const Images = () => {
   const arr = [p3, p4, p5, p6, p7, p8, p9, p10];
   return (
-    <div className="container" style={{ marginTop: "40px" }}>
+    <div className="container" style={{ marginTop: "80px" }}>
       <Flex justify="space-between">
         {arr.map((src, i) => (
           <div key={i} style={{}}>
