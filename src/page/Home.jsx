@@ -3,7 +3,8 @@ import { Banner } from "../components/banner/Banner";
 import { Images } from "../components/image/Image";
 import { SelectItem } from "../components/selectItem/SelectItem";
 import { Enterprise } from "../components/enterprise/Enterprise";
-
+// import { Option } from "../components/option/Option";
+import { HomeBottom } from "../components/homeBottom/HomeBottom";
 function Home() {
   return (
     <>
@@ -13,6 +14,8 @@ function Home() {
         <Images />
         <SelectItem />
         <Enterprise />
+        {/* <Option /> */}
+        <HomeBottom />
       </div>
     </>
   );
