@@ -5,6 +5,8 @@ import { SelectItem } from "../components/selectItem/SelectItem";
 import { Enterprise } from "../components/enterprise/Enterprise";
 // import { Option } from "../components/option/Option";
 import { HomeBottom } from "../components/homeBottom/HomeBottom";
+import { HomeSectionOne } from "../components/homeBottom/HomeSectionOne";
+
 function Home() {
   return (
     <>
@@ -16,6 +18,7 @@ function Home() {
         <Enterprise />
         {/* <Option /> */}
         <HomeBottom />
+        <HomeSectionOne />
       </div>
     </>
   );
