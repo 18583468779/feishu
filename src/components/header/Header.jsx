@@ -16,6 +16,7 @@ const Header = () => {
             <Fdropdown title="解决方案" select={2} />
             <Fdropdown title="产品功能" select={3} />
             <Fdropdown title="合作与支持" select={4} />
+            <div>飞书社区</div>
           </Space>
         </div>
         <Flex gap={"30px"} align="center">

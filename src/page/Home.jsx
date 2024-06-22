@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       <Header />
-      <div style={{ marginTop: "-60px" }}>
+      <div style={{ marginTop: "0px" }}>
         <Banner />
         <Images />
         <SelectItem />

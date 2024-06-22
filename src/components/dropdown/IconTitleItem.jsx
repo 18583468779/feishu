@@ -1,7 +1,7 @@
 // 封装图标标题内容组件
 export const IconTitleItem = (props) => {
   return (
-    <h4>
+    <h4 onClick={() => props.onClick()}>
       {props.children}
       <>
         {props.title}
