@@ -4,14 +4,21 @@ import styles from "./header.module.scss";
 import { Fdropdown } from "../dropdown/Fdropdown";
 import { Flex } from "antd";
 import { PhoneFilled } from "@ant-design/icons";
+import { useNavigate } from "react-router";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className={styles.header}>
       <Flex className="container" justify="space-between" align="center">
         <div className={styles.headerLeft}>
           <Space size={"large"}>
-            <Image style={{ width: "74px" }} src={logo} />
+            <Image
+              style={{ width: "74px", cursor: "pointer" }}
+              src={logo}
+              preview={false}
+              onClick={() => navigate("/")}
+            />
             <Fdropdown title="客户案例" />
             <Fdropdown title="解决方案" select={2} />
             <Fdropdown title="产品功能" select={3} />

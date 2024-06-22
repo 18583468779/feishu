@@ -73,7 +73,7 @@ export const ProjectItem = () => {
               <IconTitleItem
                 title="即时消息"
                 content="极致高效传递信息"
-                onClick={() => navigate("/messenger")}
+                onClick={() => navigate("/calendar")}
               >
                 <ConsoleSqlOutlined
                   style={{ color: "blue", marginRight: "8px" }}
@@ -193,29 +193,29 @@ export const ProjectItem = () => {
         <Row justify="space-around" align="start">
           <Col span={4}>
             <Flex vertical gap={"30px"} align="start">
-              <WorkWord
-                title="项目管理"
-                content={["复杂项目管理", "轻量项目管理"]}
-              />
-              <WorkWord title="客服" content={["胪反馈管理"]} />
+              <IconTitleItem title="飞书人事" content="识别组织优质人才">
+                <ConsoleSqlOutlined
+                  style={{ color: "blue", marginRight: "8px" }}
+                />
+              </IconTitleItem>
             </Flex>
           </Col>
-
           <Col span={4}>
             <Flex vertical gap={"30px"} align="start">
-              <WorkWord
-                title="迁移到飞书"
-                content={["保护企业资产", "优化业务流程"]}
-              />
+              <IconTitleItem title="飞书绩效" content="激励人才加速成长">
+                <ConsoleSqlOutlined
+                  style={{ color: "blue", marginRight: "8px" }}
+                />
+              </IconTitleItem>
             </Flex>
-          </Col>
-
+          </Col>{" "}
           <Col span={4}>
             <Flex vertical gap={"30px"} align="start">
-              <WorkWord
-                title="系统集成"
-                content={["审批集成", "Salesforce集成"]}
-              />
+              <IconTitleItem title="飞书招聘" content="精准招聘合适人才">
+                <ConsoleSqlOutlined
+                  style={{ color: "blue", marginRight: "8px" }}
+                />
+              </IconTitleItem>
             </Flex>
           </Col>
           <Col span={6}>
@@ -263,69 +263,61 @@ export const ProjectItem = () => {
             行业实践合集&gt;
           </h4>
           <Row justify="space-around" align="start">
-            <Col span={6}>
+            <Col span={4}>
               <Flex vertical gap={"30px"} align="start">
-                <WorkWord
-                  title="行业通用"
-                  content={["减少90 %重复工作", "5个任务管理提效秘籍"]}
-                />
-                <WorkWord
-                  title="金融"
-                  content={[
-                    "打造一站式智慧党建工作平台",
-                    "建设高效学习组织新形态",
-                  ]}
-                />
-                <WorkWord
-                  title="文娱传媒"
-                  content={["激发创造打造爆款综艺", "万人共创打造全网关注话题"]}
-                />
+                <IconTitleItem title="多维表格" content="轻松搭建业务系统">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
+                <IconTitleItem title="飞书项目" content="协同流程更高效">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
+                <IconTitleItem title="机器人助手" content="支持业务提效加速">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
               </Flex>
             </Col>
-
-            <Col span={6}>
+            <Col span={4}>
               <Flex vertical gap={"30px"} align="start">
-                <WorkWord
-                  title="消费"
-                  content={["高效打造消费品牌爆品", "一张表掌握产品与销量情况"]}
-                />
-                <WorkWord
-                  title="制造业"
-                  content={[
-                    "0代码搭建业务巡检系统",
-                    "17條线索月的车企营销方法",
-                  ]}
-                />
-                <WorkWord
-                  title="房地产"
-                  content={["一张询价表省下20万", "为每个项目变更节省300小时"]}
-                />
+                <IconTitleItem title="飞书集成平台" content="实现企业数据互通">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
+                <IconTitleItem title="飞书合同" content="智能审核守护安全">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
+                <IconTitleItem title="定制工作台" content="-站式高效工作">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
               </Flex>
-            </Col>
-
-            <Col span={6}>
+            </Col>{" "}
+            <Col span={4}>
               <Flex vertical gap={"30px"} align="start">
-                <WorkWord
-                  title="游戏"
-                  content={[
-                    "通过标准生产线打造爆款游戏",
-                    "7大场景加速游戏策划与开发",
-                  ]}
-                />
-                <WorkWord
-                  title="互联网"
-                  content={[
-                    "用原1/4的时间实现功能上线",
-                    "10倍提升互联网组织协作效率",
-                  ]}
-                />
-                <WorkWord
-                  title="医疗健康"
-                  content={[
-                    "7大解决方案助力医疗组织升级",
-                    "医药代表如何提升销售效率",
-                  ]}
-                />
+                <IconTitleItem title="飞书应引擎" content="大幅降低开发成本">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
+                <IconTitleItem title="飞书审批" content="敲透明加速管理">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
+                <IconTitleItem title="飞书问卷" content="直接驱动业务流程">
+                  <ConsoleSqlOutlined
+                    style={{ color: "blue", marginRight: "8px" }}
+                  />
+                </IconTitleItem>
               </Flex>
             </Col>
             <Col span={6}>
@@ -338,24 +330,24 @@ export const ProjectItem = () => {
                   }}
                 >
                   <Flex vertical gap={"10px"} align="start">
-                    <Image style={{ width: "100%" }} src={p1} />
+                    <Image style={{ width: "100%" }} src={work} />
                     <h4 style={{ paddingLeft: "10px" }} className="center">
-                      抖音同款项目管理神器
+                      定制企业专属解决方案
                     </h4>
                     <p style={{ fontSize: "12px", paddingLeft: "10px" }}>
-                      助力抖音在几年时间迅速成长为一款“国
+                      从行业核心场景出发，提供组织效能提
                     </p>
                     <p style={{ fontSize: "12px", paddingLeft: "10px" }}>
-                      民级应用”，既实现敏捷的功能迭代，又
+                      升、业务发展加速双重解决方案，与你共
                     </p>
                     <p style={{ fontSize: "12px", paddingLeft: "10px" }}>
-                      承载高速的组织增长。
+                      行业内提效实践及数字化经验。
                     </p>
                     <Button
                       type="link"
-                      style={{ width: "180px", marginLeft: "-25px" }}
+                      style={{ width: "180px", marginLeft: "-45px" }}
                     >
-                      点击试用同款 &gt;
+                      立即咨询 &gt;
                     </Button>
                   </Flex>
                 </div>

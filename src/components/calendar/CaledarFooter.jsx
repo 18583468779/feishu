@@ -14,7 +14,7 @@ export const CaledarFooter = () => {
         }}
       >
         <div className="footer_div">
-          <Image style={{ width: "74px" }} src={logo} />
+          <Image style={{ width: "74px" }} src={logo} preview={false} />
         </div>
         <div className="footer_div">
           <h2 style={{ marginBottom: "10px" }}>热门链接</h2>

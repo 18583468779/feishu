@@ -2,6 +2,8 @@ import { Carousel, Flex, Button, Typography, Space, Image } from "antd";
 const { Title } = Typography;
 import arrow from "../../assets/image/arrow.png";
 import bannerShow from "../../assets/image/banner-show.png";
+import b1 from "../../assets/image/b1.png";
+import b2 from "../../assets/image/b2.png";
 
 import { CheckOutlined } from "@ant-design/icons";
 export const Banner = () => {
@@ -42,6 +44,7 @@ export const Banner = () => {
                 <Image
                   style={{ width: "44px", marginLeft: "32px" }}
                   src={arrow}
+                  preview={false}
                 />
               </Button>
             </Flex>
@@ -52,7 +55,27 @@ export const Banner = () => {
         </div>
       </div>
       <div>
-        <div className="banner2"></div>
+        <div className="banner2">
+          <Flex className="container">
+            <div>
+              <Image src={b1}></Image>
+              <h1>每个人的 智能伙伴</h1>
+              <Button type="primary" className="freeBtn">
+                免费试用
+                <Image
+                  style={{ width: "44px", marginLeft: "32px" }}
+                  src={arrow}
+                  preview={false}
+                />
+              </Button>
+            </div>
+            <Image
+              style={{ width: "44px", marginLeft: "32px" }}
+              src={b2}
+              preview={false}
+            />
+          </Flex>
+        </div>
       </div>
     </Carousel>
   );

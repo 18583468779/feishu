@@ -117,8 +117,8 @@ export const Footer = () => {
             gap: "30px",
           }}
         >
-          <Image style={{ width: "74px" }} src={logo} />
-          <Image style={{ width: "251px" }} src={tags} />
+          <Image style={{ width: "74px" }} src={logo} preview={false} />
+          <Image style={{ width: "251px" }} src={tags} preview={false} />
         </div>
         <div>
           <ul style={{ display: "flex", marginTop: "50px", gap: "30px" }}>
