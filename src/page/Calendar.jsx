@@ -1,5 +1,5 @@
 import Header from "../components/header/Header";
-import { Footer } from "../components/footer/Footer";
+import { CaledarFooter } from "../components/calendar/CaledarFooter";
 import { CaledarBanner } from "../components/calendar/CaledarBanner";
 import { CaledarSection } from "../components/calendar/CaledarSection";
 
@@ -9,7 +9,7 @@ const Calendar = () => {
       <Header />
       <CaledarBanner />
       <CaledarSection />
-      <Footer />
+      <CaledarFooter />
     </>
   );
 };
