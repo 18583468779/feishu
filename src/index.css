@@ -266,3 +266,22 @@ body {
 .footer_div ul li {
   margin-bottom: 20px;
 }
+
+.bg1 {
+  background-color: #f0f4ff;
+  width: 100%;
+  padding-top: 86px;
+  padding-bottom: 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(./assets/image/bg2.png), url(./assets/image/bg3.png);
+  background-clip: padding-box, padding-box;
+  background-size: 517px auto, auto 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, scroll;
+  background-position: bottom left, top right -40px;
+  background-blend-mode: normal, normal;
+  min-width: 1280px;
+}
