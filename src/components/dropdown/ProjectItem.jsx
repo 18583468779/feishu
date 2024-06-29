@@ -73,7 +73,7 @@ export const ProjectItem = () => {
               <IconTitleItem
                 title="即时消息"
                 content="极致高效传递信息"
-                onClick={() => navigate("/calendar")}
+                onClick={() => navigate("/messenger")}
               >
                 <ConsoleSqlOutlined
                   style={{ color: "blue", marginRight: "8px" }}
