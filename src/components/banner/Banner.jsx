@@ -56,24 +56,48 @@ export const Banner = () => {
       </div>
       <div>
         <div className="banner2">
-          <Flex className="container">
-            <div>
-              <Image src={b1}></Image>
-              <h1>每个人的 智能伙伴</h1>
-              <Button type="primary" className="freeBtn">
-                免费试用
+          <Flex className="container" justify="space-between" align="center">
+            <Flex vertical>
+              <Image
+                src={b2}
+                style={{ width: "300px" }}
+                preview={false}
+              ></Image>
+              <h1 style={{ fontSize: "52px", marginTop: "20px" }}>
+                每个人的 <strong className="word-red">智能伙伴</strong>
+              </h1>
+              <Button
+                type="primary"
+                className="freeBtn btn-red"
+                style={{ maxHeight: "80px" }}
+              >
+                预约演示
                 <Image
-                  style={{ width: "44px", marginLeft: "32px" }}
+                  style={{ width: "34px", marginLeft: "32px" }}
                   src={arrow}
                   preview={false}
                 />
               </Button>
+            </Flex>
+            <Image src={b1} preview={false} style={{ maxWidth: "600px" }} />
+          </Flex>
+          <Flex
+            className="container banner-ul"
+            justify="space-between"
+            align="center"
+          >
+            <div>
+              <span>了解飞书智能伙伴</span>
             </div>
-            <Image
-              style={{ width: "44px", marginLeft: "32px" }}
-              src={b2}
-              preview={false}
-            />
+            <div>
+              <span>「飞书未来式」 发布会</span>
+            </div>
+            <div>
+              <span>业务协同新方式</span>
+            </div>
+            <div>
+              <span>成为飞书大使</span>
+            </div>
           </Flex>
         </div>
       </div>

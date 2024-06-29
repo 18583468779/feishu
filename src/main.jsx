@@ -4,6 +4,8 @@ import { RouterProvider } from "react-router-dom";
 import "./index.css";
 import router from "./router";
 import "animate.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
